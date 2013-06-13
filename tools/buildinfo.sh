@@ -44,9 +44,4 @@ echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
 echo "ro.cm.device=$CM_DEVICE"
 
-echo "# OTA Update Center"
-echo "otaupdater.otaid=cm10$DEVICE"
-echo "otaupdater.otaver=cm-10.1-`date +%Y%m%d`-NIGHTLY-$DEVICE"
-echo "otaupdater.otatime=`date +%Y%m%d`"
-
 echo "# end build properties"
