@@ -37,7 +37,7 @@ SRC_HEADERS := \
 	$(TOPDIR)frameworks/native/include \
 	$(TOPDIR)frameworks/native/opengl/include \
 	$(TOPDIR)frameworks/av/include \
-	$(TOPDIR)kernel/htc/RowShow-7x30/include \
+	$(TOPDIR)device/htc/msm7x30-common/include \
 	$(TOPDIR)frameworks/base/include \
 	$(TOPDIR)external/skia/include
 SRC_HOST_HEADERS:=$(TOPDIR)tools/include
